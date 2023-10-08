@@ -1,4 +1,5 @@
 import { Header } from "components/header";
+
 import { Button } from "components/ui/button";
 import Link from "next/link";
 import React from "react";
@@ -13,7 +14,7 @@ const Main = () => {
           <div className={`absolute -inset-1  opacity-100  blur-3xl`}>
             <h1 className={`text-8xl max-w-5xl text-center font-black mb-6`}>
               <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
-                Anonymous payments to your service providers
+                Register your company to reward your users loyalty
               </span>
             </h1>
           </div>
@@ -27,12 +28,12 @@ const Main = () => {
                     color="white"
                     show={true}
                   >
-                    <span className="text-black">Anonymous</span>
+                    <span className="text-black">Greed</span>
                   </RoughNotation>{" "}
                   <div>
                     <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
                       {" "}
-                      payments to your fav service providers
+                      is good
                     </span>
                   </div>
                 </span>

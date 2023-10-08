@@ -6,5 +6,5 @@ import { useEffect, useState } from "react";
 import QRCode from "react-qr-code";
 
 export default function Home() {
-  return <Loki />;
+  return <Main />;
 }
